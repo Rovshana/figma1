@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+}
+:root{
+    --colorMainGreen:#71A894;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 107px;
+  
+    border-bottom: 1px solid rgba(0, 0, 0, 0.082);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-content{
+    display: flex;
+    align-items: center;
+}
+.logo-content img{
+    margin-right: 8px;
+}
+.logo-content h1{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 4%;
+    
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar li{
+    margin-left: 40px;
+}
+
+.navbar li:last-child a{
+    color:#71A894;
+}
+.navbar li{
+    font-size: 18px;
+
+    font-weight: 500;
+    
+}
+.navbar li a{
+    color: #303031;
+}
+.navbar a:hover{
+    color: var(--colorMainGreen);
+}
