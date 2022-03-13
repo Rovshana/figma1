@@ -1,0 +1,21 @@
+@media screen and (max-width: 768px) {
+  
+  .navbar{
+    display: none;
+  }
+  .menu{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+     display: none;
+    }
+    .menu{
+      display: block;
+    }
+    .navbar-phone{
+      display: block;
+    }
+  }
